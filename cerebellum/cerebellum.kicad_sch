@@ -3982,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 43.18) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2756bb24-633c-4d7e-8aeb-99cff115e150")
+	)
+	(wire
+		(pts
 			(xy 231.14 38.1) (xy 231.14 58.42)
 		)
 		(stroke
@@ -4162,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 38.1) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf8b33c-20c3-4601-8083-dd8d81b4e123")
+	)
+	(wire
+		(pts
 			(xy 248.92 68.58) (xy 246.38 68.58)
 		)
 		(stroke
@@ -4179,6 +4199,16 @@
 			(type solid)
 		)
 		(uuid "67559638-167e-4f06-9757-aeeebf7e8930")
+	)
+	(wire
+		(pts
+			(xy 162.56 30.48) (xy 177.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688a6b5f-6ed4-4e99-983f-3935ec850926")
 	)
 	(wire
 		(pts
@@ -4392,6 +4422,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 35.56) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7ad77c-af7e-4c2e-9baa-45a6c71ff2e3")
+	)
+	(wire
+		(pts
 			(xy 204.47 71.12) (xy 233.68 71.12)
 		)
 		(stroke
@@ -4552,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 40.64) (xy 177.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90823d6-62a0-43e2-a913-33a54d34c165")
+	)
+	(wire
+		(pts
 			(xy 248.92 63.5) (xy 246.38 63.5)
 		)
 		(stroke
@@ -4562,6 +4612,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 33.02) (xy 177.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f0c762-a24a-458f-8493-fd320d27428f")
+	)
+	(wire
+		(pts
 			(xy 228.6 27.94) (xy 233.68 27.94)
 		)
 		(stroke
@@ -4569,6 +4629,26 @@
 			(type solid)
 		)
 		(uuid "ed4af6f5-c1f9-4ac6-b35e-2b9ff5cd0eb3")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4702e58-0822-4a41-a672-1c6f12b24ecd")
+	)
+	(wire
+		(pts
+			(xy 162.56 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7df9dfb-7d78-4e2c-92fd-bacdad21624b")
 	)
 	(wire
 		(pts
@@ -4609,6 +4689,16 @@
 			(justify left bottom)
 		)
 		(uuid "0bec16b3-1718-4967-abb5-89274b1e4c31")
+	)
+	(label "SDA"
+		(at 177.8 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1502eb2c-4558-4e7b-a554-988d3f239e02")
 	)
 	(label "ID_SDA"
 		(at 110.49 175.26 180)
@@ -4660,7 +4750,7 @@
 		)
 		(uuid "3388965f-bec1-490c-9b08-dbac9be27c37")
 	)
-	(label "GPIO10{slash}SPI0.MOSI"
+	(label "MOSI"
 		(at 204.47 50.8 0)
 		(effects
 			(font
@@ -4670,7 +4760,7 @@
 		)
 		(uuid "35a1cc8d-cefe-4fd3-8f7e-ebdbdbd072ee")
 	)
-	(label "GPIO9{slash}SPI0.MISO"
+	(label "MISO"
 		(at 204.47 53.34 0)
 		(effects
 			(font
@@ -4720,7 +4810,7 @@
 		)
 		(uuid "5f2ee32f-d6d5-4b76-8935-0d57826ec36e")
 	)
-	(label "GPIO14{slash}TXD0"
+	(label "TXD"
 		(at 273.05 35.56 180)
 		(effects
 			(font
@@ -4730,7 +4820,7 @@
 		)
 		(uuid "610a05f5-0e9b-4f2c-960c-05aafdc8e1b9")
 	)
-	(label "GPIO8{slash}SPI0.CE0"
+	(label "CE0"
 		(at 273.05 55.88 180)
 		(effects
 			(font
@@ -4740,7 +4830,7 @@
 		)
 		(uuid "64ee07d4-0247-486c-a5b0-d3d33362f168")
 	)
-	(label "GPIO15{slash}RXD0"
+	(label "RXD"
 		(at 273.05 38.1 180)
 		(effects
 			(font
@@ -4759,6 +4849,26 @@
 			(justify right bottom)
 		)
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
+	)
+	(label "SPI1_SCK"
+		(at 177.8 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6eada46c-7d1b-4b4a-8aaf-3c0e8d8894d7")
+	)
+	(label "SPI1_CSn"
+		(at 177.8 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76fd3114-fbb3-4971-961a-69775bd24a73")
 	)
 	(label "GPIO22"
 		(at 204.47 45.72 0)
@@ -4830,6 +4940,16 @@
 		)
 		(uuid "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85")
 	)
+	(label "UART0_TX"
+		(at 177.8 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae3d4f0c-4924-4ce5-b714-2513770fb81e")
+	)
 	(label "GPIO13{slash}PWM1"
 		(at 204.47 68.58 0)
 		(effects
@@ -4849,6 +4969,16 @@
 			(justify right bottom)
 		)
 		(uuid "b64a2cd2-1bcf-4d65-ac61-508537c93d3e")
+	)
+	(label "UART0_RX"
+		(at 177.8 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b70d7741-5c28-4bd5-80b2-53fc1f090ccb")
 	)
 	(label "GPIO24"
 		(at 273.05 48.26 180)
@@ -4870,6 +5000,26 @@
 		)
 		(uuid "be4b9f73-f8d2-4c28-9237-5d7e964636fa")
 	)
+	(label "SCL"
+		(at 177.8 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0bebd33-5482-4d65-b878-6377a121d294")
+	)
+	(label "SPI1_TX"
+		(at 177.8 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1a1a59b-e261-4afd-8b6b-8d50eee46ad1")
+	)
 	(label "ID_SCL"
 		(at 110.49 177.8 180)
 		(effects
@@ -4880,7 +5030,17 @@
 		)
 		(uuid "dd6c1ab1-463a-460b-93e3-6e17d4c06611")
 	)
-	(label "GPIO11{slash}SPI0.SCLK"
+	(label "SPI1_RX"
+		(at 177.8 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e888027f-5faa-431f-a42e-96a3a6feaac4")
+	)
+	(label "SCLK"
 		(at 204.47 55.88 0)
 		(effects
 			(font
@@ -5320,7 +5480,7 @@
 	)
 	(symbol
 		(lib_id "RaspberryPi_Pico:RaspberryPi_Pico")
-		(at 167.64 53.34 180)
+		(at 139.7 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5329,7 +5489,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b05f0d2-77bf-4268-8260-f06f3cfd2616")
 		(property "Reference" "A1"
-			(at 170.7581 16.51 0)
+			(at 142.8181 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5498,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico"
-			(at 170.7581 19.05 0)
+			(at 142.8181 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5507,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
-			(at 167.64 6.35 0)
+			(at 139.7 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5516,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 167.64 3.81 0)
+			(at 139.7 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5525,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 167.64 1.27 0)
+			(at 139.7 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5732,7 @@
 	)
 	(symbol
 		(lib_id "POLOLU_TB6612:POLOLU-713")
-		(at 114.3 52.07 180)
+		(at 62.23 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5581,7 +5741,7 @@
 		(fields_autoplaced yes)
 		(uuid "18ffe67d-83f2-479a-9936-7bd2a9e7fa8b")
 		(property "Reference" "U2"
-			(at 114.3 29.21 0)
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5749,7 @@
 			)
 		)
 		(property "Value" "POLOLU_TB6612_CARRIER"
-			(at 114.3 31.75 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5757,7 @@
 			)
 		)
 		(property "Footprint" "POLOLU_TB6612:POLOLU_TB6612"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +5776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5785,7 @@
 			)
 		)
 		(property "MF" "Pololu"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5795,7 @@
 			)
 		)
 		(property "Description_1" "DC-motor driver; IC: TB6612FNG; 100kHz; 1A; Uin mot: 4.5"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5805,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,7 +5815,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +5825,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/POLOLU-713/Pololu/view-part/?ref=eda"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5835,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5845,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5855,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/POLOLU-713/Pololu/view-part/?ref=snap"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5865,7 @@
 			)
 		)
 		(property "MP" "POLOLU-713"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5875,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5885,7 @@
 			)
 		)
 		(property "MANUFACTURER" "POLOLU"
-			(at 114.3 52.07 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
