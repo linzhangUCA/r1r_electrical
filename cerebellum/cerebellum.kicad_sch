@@ -5957,6 +5957,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "JST-SH, male"
+		(exclude_from_sim no)
+		(at 133.858 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23f33456-7b4d-45c8-95db-f68cfc807cef")
+	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
 		(at 179.07 180.34 0)
@@ -5968,6 +5978,16 @@
 		)
 		(uuid "36e2c557-2c2a-4fba-9b6f-1167ab8ec281")
 	)
+	(text "JST-SH, male"
+		(exclude_from_sim no)
+		(at 163.83 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56fd1fe0-0d2c-4b45-9d39-20821ec3d9d9")
+	)
 	(text "ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nBridging JP1 enables write protection.\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required."
 		(exclude_from_sim no)
 		(at 16.51 193.04 0)
@@ -5978,6 +5998,36 @@
 			(justify left bottom)
 		)
 		(uuid "8714082a-55fe-4a29-9d48-99ae1ef73073")
+	)
+	(text "2.54 Header"
+		(exclude_from_sim no)
+		(at 197.358 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9aed3d01-ce95-479b-bfb6-bffda1a8260f")
+	)
+	(text "XH2.54, male"
+		(exclude_from_sim no)
+		(at 49.022 38.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6404029-afc2-4917-8555-abbd3fa8d68c")
+	)
+	(text "2.54 Header"
+		(exclude_from_sim no)
+		(at 225.806 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d868a7cb-4375-4cc5-a822-0ae0646d7ee1")
 	)
 	(junction
 		(at 93.98 175.26)
@@ -10379,7 +10429,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "220R"
 			(at 53.34 140.462 90)
 			(effects
 				(font
@@ -10446,7 +10496,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "220R"
 			(at 53.34 145.542 90)
 			(effects
 				(font
@@ -11601,7 +11651,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "220R"
 			(at 53.34 150.622 90)
 			(effects
 				(font
