@@ -5,7 +5,9 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(date "15 nov 2012")
+		(title "RPi Expansion for Pico and Motor Driver (The Cerebellum)")
+		(date "2025-04-17")
+		(rev "0.0.0")
 	)
 	(lib_symbols
 		(symbol "+3.3V_1"
@@ -123,6 +125,148 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5591,7 +5735,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 45.72) (xy 30.48 73.66)
+			(xy 30.48 52.07) (xy 30.48 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5721,7 +5865,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 88.9 58.42)
+			(xy 76.2 64.77) (xy 88.9 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5941,7 +6085,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 88.9 53.34)
+			(xy 76.2 59.69) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6111,7 +6255,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 66.04) (xy 88.9 66.04)
+			(xy 76.2 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6291,7 +6435,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 50.8 63.5)
+			(xy 38.1 69.85) (xy 50.8 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6338,6 +6482,16 @@
 			(type solid)
 		)
 		(uuid "7645e45b-ebbd-4531-92c9-9c38081bbf8d")
+	)
+	(wire
+		(pts
+			(xy 30.48 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e596ae-ee81-4205-b013-ce5a6cc2010d")
 	)
 	(wire
 		(pts
@@ -6401,7 +6555,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 73.66) (xy 50.8 73.66)
+			(xy 30.48 80.01) (xy 50.8 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6641,7 +6795,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 88.9 50.8)
+			(xy 76.2 57.15) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6781,7 +6935,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 66.04) (xy 50.8 66.04)
+			(xy 38.1 72.39) (xy 50.8 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6831,7 +6985,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 68.58) (xy 88.9 68.58)
+			(xy 76.2 74.93) (xy 88.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6861,7 +7015,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 88.9 55.88)
+			(xy 76.2 62.23) (xy 88.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6951,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 88.9 60.96)
+			(xy 76.2 67.31) (xy 88.9 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7081,7 +7235,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 63.5) (xy 88.9 63.5)
+			(xy 76.2 69.85) (xy 88.9 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7101,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 60.96) (xy 50.8 60.96)
+			(xy 38.1 67.31) (xy 50.8 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7151,7 +7305,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 68.58) (xy 50.8 68.58)
+			(xy 38.1 74.93) (xy 50.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7160,7 +7314,7 @@
 		(uuid "fe834d66-3e1a-4262-ac7f-8d5fb83fa195")
 	)
 	(label "BO1"
-		(at 38.1 63.5 0)
+		(at 38.1 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7270,7 +7424,7 @@
 		(uuid "1b0b4d70-f357-440d-9f7b-031a6a21358b")
 	)
 	(label "BIN1"
-		(at 88.9 60.96 180)
+		(at 88.9 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7310,7 +7464,7 @@
 		(uuid "2a3194be-4fa1-4907-a817-520a56795b74")
 	)
 	(label "AIN1"
-		(at 88.9 66.04 180)
+		(at 88.9 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7390,7 +7544,7 @@
 		(uuid "3911220d-b117-4874-8479-50c0285caa70")
 	)
 	(label "BIN2"
-		(at 88.9 58.42 180)
+		(at 88.9 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7410,7 +7564,7 @@
 		(uuid "3f95e2d8-bcda-47f1-996b-cbdce71391aa")
 	)
 	(label "VMOT"
-		(at 88.9 50.8 180)
+		(at 88.9 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7430,7 +7584,7 @@
 		(uuid "45550f58-81b3-4113-a98b-8910341c00d8")
 	)
 	(label "AO2"
-		(at 38.1 66.04 0)
+		(at 38.1 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7580,7 +7734,7 @@
 		(uuid "688abdfb-b74a-4c14-9f55-47b09a1caee1")
 	)
 	(label "BO2"
-		(at 38.1 60.96 0)
+		(at 38.1 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7620,7 +7774,7 @@
 		(uuid "6f3c1fa5-72f3-43ad-880a-717ec92dedcc")
 	)
 	(label "PWMB"
-		(at 88.9 53.34 180)
+		(at 88.9 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7710,7 +7864,7 @@
 		(uuid "a46d6ef9-bb48-47fb-afed-157a64315177")
 	)
 	(label "AIN2"
-		(at 88.9 63.5 180)
+		(at 88.9 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7820,7 +7974,7 @@
 		(uuid "be4b9f73-f8d2-4c28-9237-5d7e964636fa")
 	)
 	(label "PWMA"
-		(at 88.9 55.88 180)
+		(at 88.9 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7828,6 +7982,16 @@
 			(justify right bottom)
 		)
 		(uuid "bf2ec802-bfc7-4aef-9a3e-f9b45932988e")
+	)
+	(label "VMOT"
+		(at 30.48 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c924793b-5229-421a-a487-10d417d8d245")
 	)
 	(label "SW_PU"
 		(at 109.22 138.43 180)
@@ -7860,7 +8024,7 @@
 		(uuid "dd6c1ab1-463a-460b-93e3-6e17d4c06611")
 	)
 	(label "AO1"
-		(at 38.1 68.58 0)
+		(at 38.1 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7960,7 +8124,7 @@
 		(uuid "f9b80c2b-5447-4c6b-b35d-cb6b75fa7978")
 	)
 	(label "STBY"
-		(at 88.9 68.58 180)
+		(at 88.9 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8862,7 +9026,7 @@
 	)
 	(symbol
 		(lib_id "POLOLU_TB6612:POLOLU-713")
-		(at 63.5 60.96 180)
+		(at 63.5 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8871,7 +9035,7 @@
 		(fields_autoplaced yes)
 		(uuid "18ffe67d-83f2-479a-9936-7bd2a9e7fa8b")
 		(property "Reference" "U2"
-			(at 63.5 38.1 0)
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +9043,7 @@
 			)
 		)
 		(property "Value" "POLOLU_TB6612_CARRIER"
-			(at 63.5 40.64 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8887,7 +9051,7 @@
 			)
 		)
 		(property "Footprint" "POLOLU_TB6612:POLOLU_TB6612"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +9061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +9070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +9079,7 @@
 			)
 		)
 		(property "MF" "Pololu"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +9089,7 @@
 			)
 		)
 		(property "Description_1" "DC-motor driver; IC: TB6612FNG; 100kHz; 1A; Uin mot: 4.5"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +9099,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +9109,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +9119,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/POLOLU-713/Pololu/view-part/?ref=eda"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +9129,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +9139,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +9149,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/POLOLU-713/Pololu/view-part/?ref=snap"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,7 +9159,7 @@
 			)
 		)
 		(property "MP" "POLOLU-713"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +9169,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,7 +9179,7 @@
 			)
 		)
 		(property "MANUFACTURER" "POLOLU"
-			(at 63.5 60.96 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +9560,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_MOTB"
 			(at 163.83 130.81 0)
 			(effects
 				(font
@@ -9453,6 +9617,76 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 44.45 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b415b64-e881-492b-a5f5-d0dd3c0f7d9c")
+		(property "Reference" "J4"
+			(at 46.99 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MD_POW"
+			(at 46.99 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "434798b1-6ece-4782-8917-a61f4ca7f4b7")
+		)
+		(pin "1"
+			(uuid "10ff05fb-88f0-4e07-8d68-b0cb0c3ec90e")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9862,7 +10096,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 50.8 45.72 0)
+		(at 50.8 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9871,7 +10105,7 @@
 		(fields_autoplaced yes)
 		(uuid "610806ee-ef46-4d8d-98da-70f4f487cc3f")
 		(property "Reference" "#PWR09"
-			(at 50.8 52.07 0)
+			(at 50.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +10114,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 50.8 0)
+			(at 50.8 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +10122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 45.72 0)
+			(at 50.8 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +10131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 45.72 0)
+			(at 50.8 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +10140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 45.72 0)
+			(at 50.8 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10125,7 +10359,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 30.48 45.72 0)
+		(at 30.48 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10134,7 +10368,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bb72f14-02bb-4ed7-bccd-8d9d56edba22")
 		(property "Reference" "#PWR08"
-			(at 30.48 49.53 0)
+			(at 30.48 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10377,7 @@
 			)
 		)
 		(property "Value" "PICO3.3"
-			(at 30.48 40.64 0)
+			(at 30.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +10385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 45.72 0)
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +10394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 45.72 0)
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +10403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 30.48 45.72 0)
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,6 +10502,73 @@
 			(project "RaspberryPi-HAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 39.37 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7675050c-4139-4599-91fa-a8256fb04ccb")
+		(property "Reference" "#PWR025"
+			(at 39.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74c61226-81a8-4dd5-929a-f72fb588dd83")
+		)
+		(instances
+			(project "cerebellum"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10760,7 +11061,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_MOTA"
 			(at 133.35 130.81 0)
 			(effects
 				(font
