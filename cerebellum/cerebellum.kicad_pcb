@@ -9323,16 +9323,6 @@
 		(uuid "8472a348-457a-4fa7-a2e1-f3c62839464b")
 	)
 	(gr_line
-		(start 103 100)
-		(end 162 100)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8a7173fa-a5b9-4168-a27e-ca55f1177d0d")
-	)
-	(gr_line
 		(start 104.5 80.5)
 		(end 100.5 80.5)
 		(stroke
@@ -9436,6 +9426,100 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fca60233-ea1e-489e-a685-c8fb6788f150")
+	)
+	(gr_arc
+		(start 158.3 100)
+		(mid 157.734315 99.765685)
+		(end 157.5 99.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "02668c39-3818-4abf-a471-19d5d39d5523")
+	)
+	(gr_line
+		(start 146.7 100)
+		(end 103 100)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c17b2d3-ca10-4297-9bb2-115fa1e5e453")
+	)
+	(gr_arc
+		(start 156.7 84)
+		(mid 157.265685 84.234315)
+		(end 157.5 84.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3f790e25-c69f-453e-ab9c-45327574970f")
+	)
+	(gr_arc
+		(start 147.5 99.2)
+		(mid 147.265685 99.765685)
+		(end 146.7 100)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4ad2f061-5f15-4ab4-a9ce-6742b9b301f2")
+	)
+	(gr_line
+		(start 147.5 84.8)
+		(end 147.5 99.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b01bb55-cdfd-49be-ac4c-cfd870b84b73")
+	)
+	(gr_line
+		(start 162 100)
+		(end 158.3 100)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fa6def3-2f0f-4a67-a4af-d09b5e1f34ba")
+	)
+	(gr_line
+		(start 157.5 99.2)
+		(end 157.5 84.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97420d1c-6ce6-4795-a320-fc4a3f1e4680")
+	)
+	(gr_arc
+		(start 147.5 84.8)
+		(mid 147.734315 84.234315)
+		(end 148.3 84)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d47cad01-d80e-4d7f-84f5-606db9751a15")
+	)
+	(gr_line
+		(start 156.7 84)
+		(end 148.3 84)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efd8bb5d-94f7-4096-9d49-118019f70401")
 	)
 	(gr_text "USB"
 		(at 177.724 71.552 0)
