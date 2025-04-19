@@ -7447,6 +7447,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6145cf8-86b8-4be1-83ec-c32dc757b686")
+	)
+	(wire
+		(pts
 			(xy 246.38 66.04) (xy 273.05 66.04)
 		)
 		(stroke
@@ -7777,6 +7787,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 86.36) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7345ad5-48f4-4463-bc6d-718eaad50b6a")
+	)
+	(wire
+		(pts
 			(xy 248.92 63.5) (xy 246.38 63.5)
 		)
 		(stroke
@@ -7935,16 +7955,6 @@
 		)
 		(uuid "0164b3cd-b9e5-4832-8d8f-05f7b1284511")
 	)
-	(label "STBY"
-		(at 177.8 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02825310-9c01-4c4b-93a9-0b49077c8c70")
-	)
 	(label "ID_SDA"
 		(at 204.47 60.96 0)
 		(effects
@@ -7965,26 +7975,6 @@
 		)
 		(uuid "0bec16b3-1718-4967-abb5-89274b1e4c31")
 	)
-	(label "PWMA"
-		(at 177.8 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d118220-1fa8-40db-9cda-b0433b5689fa")
-	)
-	(label "AIN2"
-		(at 177.8 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "11240d37-cadc-4e7c-8010-538429353913")
-	)
 	(label "AENC_Y"
 		(at 149.86 142.24 180)
 		(effects
@@ -7994,16 +7984,6 @@
 			(justify right bottom)
 		)
 		(uuid "134a1675-e354-4bd2-8cee-bd96e1dc3571")
-	)
-	(label "BENC_W"
-		(at 106.68 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "151d90d8-c547-468e-b0a2-b760f61e72ee")
 	)
 	(label "ID_SDA"
 		(at 110.49 175.26 180)
@@ -8105,6 +8085,16 @@
 		)
 		(uuid "2efcc212-440b-47ad-a9f2-cccde75f527b")
 	)
+	(label "BENC_W"
+		(at 177.8 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3139ae23-d11d-45e4-b999-405865766d52")
+	)
 	(label "GPIO21{slash}PCM.DOUT"
 		(at 273.05 76.2 180)
 		(effects
@@ -8135,16 +8125,6 @@
 		)
 		(uuid "35a1cc8d-cefe-4fd3-8f7e-ebdbdbd072ee")
 	)
-	(label "BIN1"
-		(at 177.8 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38589818-547a-4862-8446-5702738f790a")
-	)
 	(label "MISO"
 		(at 204.47 53.34 0)
 		(effects
@@ -8164,6 +8144,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a23b434-61f3-40b5-b495-3a9e25222cac")
+	)
+	(label "BENC_Y"
+		(at 177.8 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a71ad43-d938-4a20-894f-e925ae56b13c")
 	)
 	(label "BIN2"
 		(at 88.9 64.77 180)
@@ -8194,6 +8184,16 @@
 			(justify right bottom)
 		)
 		(uuid "41432679-1b4d-4246-af13-4ec79796b0d3")
+	)
+	(label "PWMB"
+		(at 177.8 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4260b536-f84b-435b-8ab2-59a2bf2550b9")
 	)
 	(label "GPIO23"
 		(at 273.05 45.72 180)
@@ -8255,6 +8255,16 @@
 		)
 		(uuid "51a88ee7-db6a-4eba-8754-cc402c2b85e1")
 	)
+	(label "AIN2"
+		(at 106.68 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "525df1f8-aecf-4145-b3cc-9803dc20f960")
+	)
 	(label "B_LED"
 		(at 69.85 148.59 180)
 		(effects
@@ -8295,16 +8305,6 @@
 		)
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
 	)
-	(label "SW_PU"
-		(at 106.68 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a85dda3-6c96-4872-bb57-b4b8eafbb541")
-	)
 	(label "UART0_TX"
 		(at 243.84 105.41 180)
 		(effects
@@ -8324,16 +8324,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f2ee32f-d6d5-4b76-8935-0d57826ec36e")
-	)
-	(label "SDA"
-		(at 106.68 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fafb7ac-8c81-49f0-be6b-0066c9519596")
 	)
 	(label "TXD"
 		(at 273.05 35.56 180)
@@ -8365,15 +8355,15 @@
 		)
 		(uuid "6638ca0d-5409-4e89-aef0-b0f245a25578")
 	)
-	(label "AIN1"
-		(at 177.8 55.88 180)
+	(label "BIN2"
+		(at 177.8 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "688abdfb-b74a-4c14-9f55-47b09a1caee1")
+		(uuid "69612896-91b6-47c0-a315-000797f56dae")
 	)
 	(label "BO2"
 		(at 38.1 67.31 0)
@@ -8406,14 +8396,14 @@
 		(uuid "6b1b1354-9f30-42e7-b30e-924cbb548a80")
 	)
 	(label "AENC_W"
-		(at 106.68 81.28 0)
+		(at 106.68 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6beef7d0-bf52-443e-907f-dade3ed8ecbc")
+		(uuid "6c8c408e-aac0-481a-b0fa-6380f3a0ae89")
 	)
 	(label "SPI0_CSn"
 		(at 106.68 60.96 0)
@@ -8424,6 +8414,16 @@
 			(justify left bottom)
 		)
 		(uuid "6f3c1fa5-72f3-43ad-880a-717ec92dedcc")
+	)
+	(label "SW_PD"
+		(at 177.8 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75d9d63e-e462-45c9-a98a-3fe48ca0a0a2")
 	)
 	(label "PWMB"
 		(at 88.9 59.69 180)
@@ -8445,16 +8445,6 @@
 		)
 		(uuid "831c710c-4564-4e13-951a-b3746ba43c78")
 	)
-	(label "SW_PD"
-		(at 106.68 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8baec4a4-2f1d-4c06-a6c3-155fe97ddc74")
-	)
 	(label "SDA"
 		(at 204.47 30.48 0)
 		(effects
@@ -8464,6 +8454,16 @@
 			(justify left bottom)
 		)
 		(uuid "8fb0631c-564a-4f96-b39b-2f827bb204a3")
+	)
+	(label "PWMA"
+		(at 106.68 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90007ee9-dcc9-4f6d-84ba-512bbc66c2b4")
 	)
 	(label "GPIO17"
 		(at 204.47 40.64 0)
@@ -8475,6 +8475,16 @@
 		)
 		(uuid "9316d4cc-792f-4eb9-8a8b-1201587737ed")
 	)
+	(label "AENC_Y"
+		(at 106.68 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c23ae1a-925b-4243-9f22-a4a442dee560")
+	)
 	(label "GPIO25"
 		(at 273.05 53.34 180)
 		(effects
@@ -8484,6 +8494,16 @@
 			(justify right bottom)
 		)
 		(uuid "9d507609-a820-4ac3-9e87-451a1c0e6633")
+	)
+	(label "BIN1"
+		(at 177.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f632807-f239-49c4-9737-c4fbd9f648e5")
 	)
 	(label "SCL"
 		(at 204.47 33.02 0)
@@ -8525,16 +8545,6 @@
 		)
 		(uuid "a47c66f3-2a47-464c-8f64-a5b82549f8c4")
 	)
-	(label "PWMB"
-		(at 177.8 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4e45bb0-e0a9-4575-9754-3fbd0bacb0dc")
-	)
 	(label "SPI0_TX"
 		(at 213.36 107.95 180)
 		(effects
@@ -8544,16 +8554,6 @@
 			(justify right bottom)
 		)
 		(uuid "a6ec9ff9-9da8-4a40-88ca-faf2d9180fd2")
-	)
-	(label "BIN2"
-		(at 177.8 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a93cf808-5c0c-4379-9bfc-a34aa4f6b357")
 	)
 	(label "GPIO12{slash}PWM0"
 		(at 273.05 66.04 180)
@@ -8605,6 +8605,16 @@
 		)
 		(uuid "b64a2cd2-1bcf-4d65-ac61-508537c93d3e")
 	)
+	(label "AIN1"
+		(at 106.68 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7b7c116-fbf8-42de-b665-6781fccba663")
+	)
 	(label "GPIO24"
 		(at 273.05 48.26 180)
 		(effects
@@ -8645,6 +8655,16 @@
 		)
 		(uuid "bf2ec802-bfc7-4aef-9a3e-f9b45932988e")
 	)
+	(label "STBY"
+		(at 106.68 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c420627f-82ea-4e46-b515-8b840dae9e08")
+	)
 	(label "SPI0_RX"
 		(at 213.36 110.49 180)
 		(effects
@@ -8674,6 +8694,16 @@
 			(justify left bottom)
 		)
 		(uuid "c924793b-5229-421a-a487-10d417d8d245")
+	)
+	(label "SDA"
+		(at 106.68 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cecfe18f-f96d-4107-8820-0bc03bdd42d9")
 	)
 	(label "SW_PU"
 		(at 109.22 138.43 180)
@@ -8755,16 +8785,6 @@
 		)
 		(uuid "ea2f2160-366c-40b1-865b-6a2224057642")
 	)
-	(label "BENC_Y"
-		(at 106.68 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec9948dc-5237-46bc-af38-19067d4c3e8a")
-	)
 	(label "TRIG"
 		(at 46.99 102.87 0)
 		(effects
@@ -8786,14 +8806,14 @@
 		(uuid "f08662f8-5568-49c5-9559-83c390f24d2c")
 	)
 	(label "SCL"
-		(at 106.68 76.2 0)
+		(at 106.68 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f2a1784e-13ea-4806-94d6-53c1842781c4")
+		(uuid "f3425ad7-cfec-4164-8fed-c9a92f9f478f")
 	)
 	(label "G_LED"
 		(at 69.85 143.51 180)
@@ -8835,15 +8855,15 @@
 		)
 		(uuid "fc4e82ee-500f-4576-bbac-829400d36c97")
 	)
-	(label "AENC_Y"
-		(at 106.68 78.74 0)
+	(label "SW_PU"
+		(at 177.8 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ff01ed52-5c21-4840-af6b-20787ac5a138")
+		(uuid "fcbbe714-f127-40b6-b365-7fad6fb670fc")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -9504,7 +9524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
+		(property "Footprint" "RaspberryPi_Pico:RaspberryPi_Pico_Common_THT"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -10853,6 +10873,73 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 170.18 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ba8a4f-e3d4-436c-a46d-994367e7c12f")
+		(property "Reference" "#PWR028"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90f570b-1256-4a85-a967-079e5ef213d5")
+		)
+		(instances
+			(project "cerebellum"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
