@@ -5847,6 +5847,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1914f642-db4b-4352-bd67-8c9ad3f46dab")
+	)
+	(wire
+		(pts
 			(xy 165.1 63.5) (xy 177.8 63.5)
 		)
 		(stroke
@@ -6517,13 +6527,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 33.02) (xy 39.37 33.02)
+			(xy 38.1 33.02) (xy 38.1 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76e596ae-ee81-4205-b013-ce5a6cc2010d")
+		(uuid "7a56bd01-d66c-4488-9b14-9826bc94042c")
 	)
 	(wire
 		(pts
@@ -7204,6 +7214,16 @@
 			(type solid)
 		)
 		(uuid "e93ad2ad-5587-4125-b93d-270df22eadfa")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 39.37 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fa8919-8887-496f-a2e0-d0b51529f7d8")
 	)
 	(wire
 		(pts
@@ -7895,6 +7915,16 @@
 		)
 		(uuid "9316d4cc-792f-4eb9-8a8b-1201587737ed")
 	)
+	(label "VMOT"
+		(at 30.48 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c23471d-4072-43ff-b03a-1fe1be8604b9")
+	)
 	(label "AENC_Y"
 		(at 106.68 73.66 0)
 		(effects
@@ -8114,16 +8144,6 @@
 			(justify right bottom)
 		)
 		(uuid "c8a7ade5-0842-4f9d-afbe-165f28088a35")
-	)
-	(label "VMOT"
-		(at 30.48 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c924793b-5229-421a-a487-10d417d8d245")
 	)
 	(label "SW_PU"
 		(at 101.6 121.92 180)
@@ -10609,7 +10629,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 39.37 35.56 0)
+		(at 38.1 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10618,7 +10638,7 @@
 		(fields_autoplaced yes)
 		(uuid "7675050c-4139-4599-91fa-a8256fb04ccb")
 		(property "Reference" "#PWR025"
-			(at 39.37 41.91 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,7 +10647,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 40.64 0)
+			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 35.56 0)
+			(at 38.1 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 35.56 0)
+			(at 38.1 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10653,7 +10673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 35.56 0)
+			(at 38.1 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
