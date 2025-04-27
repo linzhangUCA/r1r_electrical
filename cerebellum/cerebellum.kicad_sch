@@ -7835,16 +7835,6 @@
 		)
 		(uuid "6b1b1354-9f30-42e7-b30e-924cbb548a80")
 	)
-	(label "AENC_W"
-		(at 106.68 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c8c408e-aac0-481a-b0fa-6380f3a0ae89")
-	)
 	(label "SPI0_CSn"
 		(at 106.68 60.96 0)
 		(effects
@@ -7864,6 +7854,16 @@
 			(justify right bottom)
 		)
 		(uuid "75d9d63e-e462-45c9-a98a-3fe48ca0a0a2")
+	)
+	(label "AENC_Y"
+		(at 106.68 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bfa2737-1a58-4003-a189-3a4a5629f031")
 	)
 	(label "PWMB"
 		(at 88.9 59.69 180)
@@ -7924,16 +7924,6 @@
 			(justify left bottom)
 		)
 		(uuid "9c23471d-4072-43ff-b03a-1fe1be8604b9")
-	)
-	(label "AENC_Y"
-		(at 106.68 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c23ae1a-925b-4243-9f22-a4a442dee560")
 	)
 	(label "GPIO25"
 		(at 273.05 53.34 180)
@@ -8214,6 +8204,16 @@
 			(justify right bottom)
 		)
 		(uuid "ea2f2160-366c-40b1-865b-6a2224057642")
+	)
+	(label "AENC_W"
+		(at 106.68 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb5d2a82-a9ba-4043-8e43-1ededda11013")
 	)
 	(label "TRIG"
 		(at 46.99 102.87 0)
