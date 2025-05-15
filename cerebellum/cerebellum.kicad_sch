@@ -10576,7 +10576,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_PULLUP"
+		(property "Value" "PULLUP"
 			(at 93.218 129.54 0)
 			(effects
 				(font
@@ -11461,7 +11461,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_PULLDOWN"
+		(property "Value" "PULLDOWN"
 			(at 119.888 120.65 0)
 			(effects
 				(font
@@ -11728,7 +11728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 106.68 29.21 0)
 			(effects
 				(font
