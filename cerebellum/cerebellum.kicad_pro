@@ -521,7 +521,7 @@
       "plot": "gerber-PCBWAY/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "cerebellum.step",
       "svg": "",
       "vrml": ""
     },
