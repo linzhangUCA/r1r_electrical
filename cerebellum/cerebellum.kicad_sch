@@ -5801,26 +5801,6 @@
 	)
 	(text "2.54 Header"
 		(exclude_from_sim no)
-		(at 39.624 181.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c0396c4d-e0e0-4adb-8926-af4159562d08")
-	)
-	(text "2.54 Header"
-		(exclude_from_sim no)
-		(at 71.374 181.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ce56becb-81fe-44ea-b2ac-2c15d1891892")
-	)
-	(text "2.54 Header"
-		(exclude_from_sim no)
 		(at 106.426 140.462 0)
 		(effects
 			(font
@@ -6085,16 +6065,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 181.61) (xy 31.75 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d19d1c-3811-4df9-b025-35a679ebc134")
-	)
-	(wire
-		(pts
 			(xy 101.6 38.1) (xy 101.6 44.45)
 		)
 		(stroke
@@ -6142,26 +6112,6 @@
 			(type solid)
 		)
 		(uuid "164f1958-8ee6-4c3d-9df0-03613712fa6f")
-	)
-	(wire
-		(pts
-			(xy 27.94 181.61) (xy 31.75 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a595de-7626-426c-a152-a8404232b8ad")
-	)
-	(wire
-		(pts
-			(xy 59.69 181.61) (xy 63.5 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180fa1a4-9339-44ac-8243-856788f208b7")
 	)
 	(wire
 		(pts
@@ -6365,16 +6315,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 179.07) (xy 67.31 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a47f7a1-00fa-470d-a7dd-d16d9b9bd40b")
-	)
-	(wire
-		(pts
 			(xy 64.77 48.26) (xy 77.47 48.26)
 		)
 		(stroke
@@ -6452,16 +6392,6 @@
 			(type default)
 		)
 		(uuid "436ab820-231a-4e9b-a33b-0d55d491362f")
-	)
-	(wire
-		(pts
-			(xy 59.69 179.07) (xy 67.31 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b14a5a-a07f-4ce8-950a-5e98c583702c")
 	)
 	(wire
 		(pts
@@ -6712,16 +6642,6 @@
 			(type default)
 		)
 		(uuid "5ea482bb-59e3-4004-bebb-a1e1b77e3852")
-	)
-	(wire
-		(pts
-			(xy 35.56 179.07) (xy 35.56 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60721081-7697-4b25-952b-f666f463cd05")
 	)
 	(wire
 		(pts
@@ -7715,16 +7635,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 181.61) (xy 63.5 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee080de-dad0-4728-b214-e1664064f487")
-	)
-	(wire
-		(pts
 			(xy 162.56 102.87) (xy 170.18 102.87)
 		)
 		(stroke
@@ -7812,16 +7722,6 @@
 			(type default)
 		)
 		(uuid "fabdeb67-6d8a-48b5-bf90-ec4459cc1736")
-	)
-	(wire
-		(pts
-			(xy 27.94 179.07) (xy 35.56 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd1ffe1-2fa5-413c-9207-142036fa8a8d")
 	)
 	(wire
 		(pts
@@ -10421,7 +10321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fbbc518-ac2a-4986-bf1f-4dd95b469122")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 102.87 173.99 0)
 			(effects
 				(font
@@ -10479,69 +10379,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 67.31 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40c3c111-9bce-4f7c-935a-e6627e814aa8")
-		(property "Reference" "#PWR032"
-			(at 67.31 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PICO3.3"
-			(at 67.6783 172.2056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2f94fac-78a6-4dbd-94dc-3c9f08b05262")
-		)
-		(instances
-			(project "cerebellum"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR032")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10609,74 +10447,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 54.61 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "544f7605-c777-48d3-8229-a2de65d376db")
-		(property "Reference" "J9"
-			(at 55.245 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3(OUT)"
-			(at 55.245 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfc12d91-3c9c-4481-af9c-648138785160")
-		)
-		(pin "1"
-			(uuid "7ee9d209-be36-4dfe-a817-d2fc8098f096")
-		)
-		(instances
-			(project "cerebellum"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11744,74 +11514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 22.86 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93e6c08c-a1e4-4b94-8907-9f25f1245f4c")
-		(property "Reference" "J8"
-			(at 23.495 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS(OUT)"
-			(at 23.495 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 22.86 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 22.86 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76abb947-f636-4220-bbba-36538d4879ed")
-		)
-		(pin "1"
-			(uuid "2e4a9112-bd94-4d63-9a26-a5f229ae4eb4")
-		)
-		(instances
-			(project "cerebellum"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 148.59 109.22 0)
 		(unit 1)
@@ -12286,73 +11988,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 31.75 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba8fb435-1520-43a7-bb40-5a9e740264b3")
-		(property "Reference" "#PWR027"
-			(at 31.75 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fba09d92-4ed8-401e-abe2-db2fb4a71b02")
-		)
-		(instances
-			(project "cerebellum"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 170.18 25.4 0)
 		(unit 1)
@@ -12615,68 +12250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 35.56 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db564556-4cf2-4836-b91c-dc83f255b432")
-		(property "Reference" "#PWR026"
-			(at 35.56 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 35.9283 172.2056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d860a66-80a2-44fd-867f-990346a6e88b")
-		)
-		(instances
-			(project "cerebellum"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 125.73 180)
 		(unit 1)
@@ -12867,73 +12440,6 @@
 			(project "cerebellum"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 63.5 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a9ad40-c447-4679-b917-de5aee121497")
-		(property "Reference" "#PWR031"
-			(at 63.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d6a51f6-5584-4317-ab86-0b0ae6ab229c")
-		)
-		(instances
-			(project "cerebellum"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
